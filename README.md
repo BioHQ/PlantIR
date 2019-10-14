@@ -36,6 +36,7 @@ Example:
 perl PlantIR_main.pl Ara_PlantIR_reference.txt 100 10 SRR4048211_accepted_hits.sam SRR4048211 8 0.1
 
 If multithreading is not supported by your Perl:
+
 perl PlantIR_main_single.pl Ara_PlantIR_reference.txt [read_length] [input file (SAM)] [prefix of output file] [minimum of read counts mapped to junctions] [threshold of PSI]
 
 Example:
